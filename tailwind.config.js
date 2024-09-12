@@ -1,13 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        overpass: ['Overpass', 'sans-serif'],
+        overpass: ["Overpass", "sans-serif"],
       },
       colors: {
         primary: {
@@ -22,13 +19,13 @@ export default {
         },
       },
       fontFamily: {
-        'Inter': ['Inter', 'sans-serif'], // Match with the font-family in @font-face
+        Inter: ["Inter", "sans-serif"], // Match with the font-family in @font-face
       },
       screens: {
-        'xs': '375px',
-        'xxl': '1440px',
-      }
+        xs: "375px",
+        xxl: "1440px",
+      },
     },
   },
   plugins: [],
-}
+};
