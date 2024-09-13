@@ -14,7 +14,7 @@ function List() {
               <br />
             </h2>
             <div className="">
-              <p className="font-Inter font-bold text-lg mb-2">
+              <p className="font-Inter font-bold text-lg mb-2 hover:text-primary-SoftRed">
                 Reviving Retro PCs
               </p>
               <p className="font-Inter text-sm text-neutral-DarkGrayishBlue mb-2 leading-relaxed">
@@ -32,7 +32,7 @@ function List() {
               <br />
             </h2>
             <div className="">
-              <p className="font-Inter font-bold text-lg mb-2">
+              <p className="font-Inter font-bold text-lg mb-2 hover:text-primary-SoftRed">
                 Top 10 Laptops of 2022
               </p>
               <p className="font-Inter text-sm text-neutral-DarkGrayishBlue mb-2 leading-relaxed">
@@ -50,7 +50,7 @@ function List() {
               <br />
             </li>
             <div>
-              <p className="font-Inter font-bold text-lg mb-2">
+              <p className="font-Inter font-bold text-lg mb-2 hover:text-primary-SoftRed">
                 The Growth of Gaming
               </p>
               <p className="font-Inter text-sm text-neutral-DarkGrayishBlue mb-2 leading-relaxed">

@@ -1,5 +1,6 @@
 import HomepageImageDesktop from "../assets/images/image-web-3-desktop.jpg";
 import HomepageImage from "../assets/images/image-web-3-mobile.jpg";
+import SlidingNav from "./SlidingNav";
 
 function Header() {
   return (
@@ -10,6 +11,7 @@ function Header() {
           src={HomepageImage}
           alt="HomeImageMobile"
         />
+        
         <img
           className=" hidden md:block"
           src={HomepageImageDesktop}
@@ -27,7 +29,7 @@ function Header() {
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
             <div>
-              <button className="mt-5 mb-10 bg-primary-SoftRed p-3 w-51 pr-11 pl-11 sm:p-3 sm:px-10 text-black text-sm font-Inter tracking-widest sm:mt-11  ">
+              <button className="mt-5 mb-10 bg-primary-SoftRed p-3 w-51 pr-11 pl-11 sm:p-3 sm:px-10 text-black text-sm font-Inter tracking-widest sm:mt-11  hover:bg-neutral-VeryDarkBlue hover:text-neutral-OffWhite ">
                 READ MORE
               </button>
             </div>
